@@ -13,7 +13,8 @@ You can now use `$dreller` as your toolkit.
 - **Font Awesome utilities**
   - [buildFA](#buildFA): Quickly create a Font Awesome `<i>`
 - **Variable utilities**
-  -
+  - [getGET](#getget-and-getpost): Retrieve $_GET variable
+  - [getPOST](#getget-and-getpost): Retrieve $_POST variable
 
 ## Examples
 This section shows you practical examples on how to use tools from the class.
