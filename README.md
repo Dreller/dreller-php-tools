@@ -57,6 +57,6 @@ $myVar = 'Hello World!';
 echo $dreller->printVar($myVar);
 ```
 ... will output:
-```
-<pre>Hello World!</pre/
+```html
+<pre>Hello World!</pre>
 ```
