@@ -49,5 +49,21 @@ public function getPOST($key, $default = ''){
   return $wip;
 }
 
+/**
+ * This tool will output a variable content in a <pre>.
+ *
+ * @param string $var     Name of variable.
+ *
+ * @author Dreller
+ * @return string
+ */
+public function printVar($var){
+  $wip = $var;
+  if( is_array($var) ){
+    $wip = print_r($var, TRUE);
+  }
+  return "<pre>$wip</pre>";
+}
+
 
 }

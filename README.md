@@ -15,6 +15,7 @@ You can now use `$dreller` as your toolkit.
 - **Variable utilities**
   - [getGET](#getget-and-getpost): Retrieve $_GET variable
   - [getPOST](#getget-and-getpost): Retrieve $_POST variable
+  - [printVar](#printVar): Output the content of any variable
 
 ## Examples
 This section shows you practical examples on how to use tools from the class.
@@ -45,4 +46,17 @@ echo $dreller->getGET('blue', 0);
 ```
 World
 0
+```
+
+### printVar
+Output the content of variable in a `<pre>`.  Works with array too!
+#### Parameters
+- **var**: *mandatory* Name of variable.
+```php
+$myVar = 'Hello World!';
+echo $dreller->printVar($myVar);
+```
+... will output:
+```
+<pre>Hello World!</pre/
 ```
