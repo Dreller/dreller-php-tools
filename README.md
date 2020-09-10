@@ -14,12 +14,12 @@ You can now use `$dreller` as your toolkit.
   - [buildFA](#buildFA): Quickly create a Font Awesome `<i>`
 
 ## Examples
-This section shows you practical example on how to use tools from the class.
+This section shows you practical examples on how to use tools from the class.
 ### buildFA
 This too will create a `<i>` tag quickly.
 #### Parameters
-- icon: *mandatory* Name of icon from [Font Awesome](https://fontawesome.com).
-- prefix: The prefix class to use, like `fas`, `far`, `fab`, etc.  Default `fas`.
+- **icon**: *mandatory* Name of icon from [Font Awesome](https://fontawesome.com).
+- **prefix**: The prefix class to use, like `fas`, `far`, `fab`, etc.  Default `fas`.
 ```php
 echo $dreller->buildFA('github');
 ```
