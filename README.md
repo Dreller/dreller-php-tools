@@ -11,7 +11,7 @@ You can now use `$dreller` as your toolkit.
 
 ## Tools summary
 - **Font Awesome utilities**
-  - buildFA: Quickly create a Font Awesome <i>
+  - buildFA: Quickly create a Font Awesome `<i>`
 
 ## Examples
 This section shows you practical example on how to use tools from the class.
